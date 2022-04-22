@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jarditou</title>
+</head>
+
+<body>
+    <img src="images/jarditou_logo.jpg" alt="Logo_jarditou" height="120" width="300">
+    <br>
+    <p>La qualité depuis 70 ans</p>
+
+    <nav>
+        <ul>
+        <li><a href="index.html" title="Accueil">Accueil</a></li>
+        <li><a href="tableau.html" title="Tableau">Tableau</a></li>
+        <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+        <br>
+    <img src="images/promotion.jpg" alt="jarditou_logo">
+
+<h1>Contact</h1>
+<hr>
+    <br>
+
+<p>* Ces zones sont obligatoires</p>
+<form action="destination.php" method="post"><fieldset style="width: 1080px;">
+<legend>Coordonnées</legend>
+<label for="nom">Votre nom* : </label><input type="text" name="nom" id="nom">
+<br>
+<label for="prénom">Votre prénom* : </label><input type="text" name="prénom" id="prénom">
+<br>
+<br>
+<label for="nom">sexe* : <input type="radio" id="femme" name="Vert" value="Couleur"> Féminin
+<input type="radio" id="Masculin" name="Vert" value="Couleur checked"> Masculin
+<br>
+<label for="date">Date de naissance* : </label><input type="date" id="date" name="ddn" id="date">
+<br>
+<label for="Code postal">Code postal* : </label> <input type="chiffre">
+<br>
+<label for="adresse">Adresse : </label><input type="chiffre" name="prénom" >
+<br>
+<label for="Ville">Ville : </label><input type="text" name="ville" >
+<br>
+<label for="?">Email* : </label><input type="email" name="email" placeholder="dave.loper@afpa.fr"><br>
+</fieldset></form>
+<br>
+<form action="destination.php" method="post"><fieldset style="width: 1080px">
+
+<legend>Votre demande</legend>
+
+<label for="sujet select">sujet</label>
+<select name="sujet" id="sujet select">
+<option value="">Veuillez sélectionner un sujet
+</option>
+    <option value="Mes commandes">Mes commandes</option>
+    <option value="Question sur un produit">Question sur un produit</option>
+    <option value="Réclamation">Réclamation</option>
+    <option value="Autres">Autres</option>
+</select>
+
+<br>
+<label for="Question">Votre question*:</label><textarea name="Question" id="question"></textarea>
+
+</fieldset></form>
+<br>
+<input type="checkbox">* J'accepte le traitement informatique de ce formulaire
+<br>
+
+<input type="submit" value="Envoyer">
+<input type="submit" value="Annuler">
+</form>
+<hr>
+<footer>
+    <nav>
+        <ul>
+        <li><a href="Mentionslégales.html" title="Mentions légales">Mentions légales</a></li>
+        <li><a href="horaires.html" title="Horaires">Horaires</a></li>
+        <li><a href="plandusite.html" title="Plan du site">Plan du site</a></li>
+        </ul>
+    </nav>
+</footer>
+
+<body>
+</html>
